@@ -1,0 +1,16 @@
+# Gitignore for a Django project
+
+# Environment
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Django db
+db.sqlite3
+*.sqlite3
+
+# Test files
+test_gemini.py
+check_models.py

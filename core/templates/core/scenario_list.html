@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Choose a Scenario</title>
+</head>
+<body>
+    <h1>Available Scenarios</h1>
+    {% for scenario in scenarios %}
+        <a class ="scenario-link" href="{% url 'scenario_detail' scenario.slug %}">
+            <strong>{{ scenario.title }}</strong>
+            <p>{{ scenario.description }}</p>
+        </a>
+    {% endfor %}
+</body>
+</html>
