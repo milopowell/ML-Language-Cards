@@ -14,3 +14,6 @@ db.sqlite3
 # Test files
 test_gemini.py
 check_models.py
+
+#Python virtual environment
+venv/
