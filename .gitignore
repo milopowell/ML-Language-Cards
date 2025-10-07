@@ -15,5 +15,5 @@ db.sqlite3
 test_gemini.py
 check_models.py
 
-#Python virtual environment
+#Python virtual environment for testing
 venv/
